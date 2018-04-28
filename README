@@ -1,0 +1,6 @@
+touch typeTheNameOfTheNewFileHere in gitBash to just make a text file
+
+.gitignore is made through above command and stored in the the folder to get rid of the unnecessary files.
+> Just type in the names of the files in .gitignore text file <
+
+Changes are made and are committed to through the GUI
