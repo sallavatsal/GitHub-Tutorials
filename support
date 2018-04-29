@@ -1,3 +1,5 @@
+Reference to Git/GitHub
+
 For instance, the required folder is on Desktop
 // Basic gitBash/Terminal commands will be as follows:
 
@@ -59,3 +61,28 @@ $ git push -u nickName master
     
     To share any repository: 
     It is of the format https:// github . com / gitHubUserName / repositoryName
+    
+// Branches - Copy of main repository
+Step 1) Make a branch - Make changes (public) & save it.
+Step 2) These changes are then used to create a Pull request.
+Step 3) Open Pull request - Resolve conflicts (Delete these <<<<<<<, =======, >>>>>>>) if any - Merge/Close that request
+Step 4) Delete branch if not required
+
+// Watch - To get notifications for a particular project
+// Star - Bookmark particular project
+// Fork - Pull requests to a friends program
+// Raw - View the raw code or the raw format of the file
+// Blame - Check the author name who created change(s)
+// History - Check the history of commits
+
+// Issue Tab - Making a to-do list
+You can drag and drop image files, write the code using speical '< * >'
+Label(Can be U.D.) - Desciding the problem, choosing Assignee(Can be changed later), Opening/Closing Issues
+GitHub Wiki - Bio, Instructions, Documentation or any useful info. Can add more pages.
+Can add custom _Sidebars
+
+//Organization
+Make Teams to work on specific areas - Add people, give them rights accordingly
+- Owner
+- Read Access
+- Write Access
