@@ -13,9 +13,9 @@ $ cd ~                                                            // Home
 $ ls                                                              // Files contained
 $ ls -la                                                          // Hidden Files view
 
-$ git config --global.user.name "Vatsal Salla"                    // Account setup
-$ git config --global.user.name                                   // Press Enter to view
-$ git config --global.user.email "Type the email here"            // Press Enter to view
+$ git config --global user.name "Vatsal Salla"                    // Account setup
+$ git config --global user.name                                   // Press Enter to view
+$ git config --global user.email "Type the email here"            // Press Enter to view
 $ git config --list
 
 // WORKING COPY >> STAGING AREA >> CORRECTING FILES
