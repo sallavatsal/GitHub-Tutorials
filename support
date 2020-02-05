@@ -3,9 +3,10 @@ Knowledge on Git Command-Line
 For instance, the required folder is on Desktop
 // Basic gitBash/Terminal commands will be as follows:
 
-$ clear
-$ q
-$ CTRL+C
+$ clear                                                           // Clears the current screen
+$ history -c                                                      // Clear command line history                                                           
+$ q                                                               // Exit
+$ CTRL+C                                                          // Stop
 $ stop
 $ cd                                                              // Path
 $ cd ..                                                           //
