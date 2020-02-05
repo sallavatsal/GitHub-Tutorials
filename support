@@ -9,7 +9,7 @@ $ q                                                               // Exit
 $ CTRL+C                                                          // Stop
 $ stop
 $ cd                                                              // Path
-$ cd ..                                                           //
+$ cd ..                                                           // Change Directory
 $ cd ~                                                            // Home
 $ ls                                                              // Files contained
 $ ls -la                                                          // Hidden Files view
