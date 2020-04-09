@@ -1,4 +1,33 @@
-Knowledge on Git Command-Line
+Knowledge on Git Command-Line (Shared by Bucky Roberts Youtube channel)
+
+Step1: Downloading/Installing git from GitHub
+
+Step2: Configure Username/Email
+
+Step3: Creating first repository
+
+Step4: Commit
+
+Step5: Adding Files and Commit Log
+
+Step6: Git Workflow
+
+Step7:
+Step8:
+Step9:
+Step10:
+Step11:
+Step12:
+Step13:
+Step14:
+Step15:
+Step16:
+Step17:
+Step18:
+Step19:
+Step20:
+
+..................................................................................................................................................................
 
 For instance, the required folder is on Desktop
 // Basic gitBash/Terminal commands will be as follows:
@@ -7,29 +36,33 @@ $ clear                                                           // Clears the 
 $ history -c                                                      // Clear command line history                                                           
 $ q                                                               // Exit
 $ CTRL+C                                                          // Stop
-$ stop
+$ stop                                                            // Stop
 $ cd                                                              // Path
 $ cd ..                                                           // Change Directory
 $ cd ~                                                            // Home
 $ ls                                                              // Files contained
-$ ls -la                                                          // Hidden Files view
+$ ls -la                                                          // Hidden files can be viewed
+$ pwd                                                             // Directory
+$ touch sample.txt                                                // Create a text file
+$ open sample.txt                                                 // Open sample.txt
 
+//Updating the configuration file
 $ git config --global user.name "Vatsal Salla"                    // Account setup
-$ git config --global user.name                                   // Press Enter to view
-$ git config --global user.email "Type the email here"            // Press Enter to view
-$ git config --list
+$ git config --global user.name                                   // Press Enter to view the stored user name
+$ git config --global user.email "Type the email here"            // Press Enter to view the stored user email
+$ git config --list                                               // See all user credentials
 
-// WORKING COPY >> STAGING AREA >> CORRECTING FILES
+// WORKING COPY (Local Computer) >> STAGING AREA (Files that are ready for commited) >> REPOSITORY/PROJECT
 // EDIT >> MODIFY >> ADD >> COMMIT
 
 $ git help                                                        // Help
-$ git init                                                        // Initialize Repository/Project
+$ git init                                                        // Initialize Repository/Project. Git will now monitor/track changes of files inside that folder
 $ git add .                                                       // Add all the files to staging area
 $ git add fileName                                                // Add a single file to staging area
-$ git commit -m "Comments to remember the point of time"          // This is to store the point of time
+$ git commit -m "Comments to remember the point of time"          // This is to store the point of time. Taking a snapshot of that time and storing it.
 $ git commit -am "To commit everything"
 $ git log                                                         // View commit history
-$ git log --author = "authorName"                                 // View specific Author's commit
+$ git log --author="authorName".                                  // View specific Author's commits
 $ git status                                                      // Compare repository and main directory
 $ git diff                                                        // View the changes in Bash
 $ git reset HEAD fileName                                         // Unstage 
@@ -87,3 +120,7 @@ Make Teams to work on specific areas - Add people, give them rights accordingly
 - Owner
 - Read Access
 - Write Access
+
+/* This is made solely for the purpose of my own learning. I do not intend to earn anything from here. I founded it helpful to keep all the commands that I
+learned from Bucky Robert's tutorials and the one's that I learned on my own in one plac. However, I have kept it in public so that anyone can go through and
+may be save a copy if it helps him/her too. Thank you! */
